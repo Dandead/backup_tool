@@ -15,7 +15,7 @@ sudo systemctl start cron
 # Install poetry
 curl -sSL https://install.python-poetry.org | python3 -
 
-echo export PATH=\"\$HOME/.local/bin:\$PATH\" >> $HOME/{.zshrc,.bashrc} 
+echo export PATH=\"\$HOME/.local/bin:\$PATH\" >> ~/{.zshrc,.bashrc}"
 
 poetry self update
 
