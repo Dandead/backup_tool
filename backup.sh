@@ -1,3 +1,3 @@
 #!/bin/bash
 
-poetry run python3 -m backup_tool
+poetry run python3.9 -m backup_tool
