@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "backup-tool"
+version = "0.1.0"
+description = ""
+authors = ["Dandead <61425314+Dandead@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "backup_tool"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
