@@ -19,9 +19,6 @@ poetry self update
 
 poetry install
 
-# First run
-poetry run python3 -m backup_tool
-
 # Add cron task
 echo 0 4 \* \* \* bash $DIR/backup.sh > crontask
 crontab crontask
