@@ -1,9 +1,9 @@
 # A tool to backup my notes ecosystem
----
+
 This tool backs up folders and moves them one level up
 
 ## Installation:
----
+
 Create directory for backups and tool:
 ```bash
 mkdir backups && cd backups
