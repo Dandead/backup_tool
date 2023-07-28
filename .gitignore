@@ -1,1 +1,7 @@
+# ide folders
+.vscode/
+.idea/
+
+**/__pycache__/
 .env
+*.zip
