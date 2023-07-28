@@ -6,7 +6,7 @@ DIR=$( pwd )
 sudo apt update && sudo apt upgrade && sudo apt autoremove
 
 # Install dependencies
-sudo apt install cron python3.9 python3-distutils python3-apt curl
+sudo apt install cron python3.9-full python3-distutils python3-apt curl
 
 # Enabale cron
 sudo systemctl enable cron
