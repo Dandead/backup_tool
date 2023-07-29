@@ -26,5 +26,5 @@ cp .env.dist .env
 ```
 And then, first run the script
 ```bash
-poetry run python3.9 -m backup_tool
+poetry run python3.11 -m backup_tool
 ```
