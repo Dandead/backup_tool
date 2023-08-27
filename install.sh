@@ -7,7 +7,7 @@ set -e
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove
 
 # Install dependencies
-sudo apt install git cron python3-distutils python3-apt python3-pip curl software-properties-common -y
+sudo apt install git cron python3-distutils python3-pip curl software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt install python3.11 -y
 
