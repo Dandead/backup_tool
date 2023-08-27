@@ -1,6 +1,7 @@
 # ide folders
 .vscode/
 .idea/
+venv
 
 **/__pycache__/
 .env

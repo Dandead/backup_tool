@@ -4,27 +4,11 @@ This tool backs up folders and moves them one level up
 
 ## Installation:
 
-Create directory for backups and tool:
+With curl:
 ```bash
-mkdir backups && cd backups
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Dandead/backup_tool/main/install.sh)"
 ```
-Clone github repository:
+Or with wget:
 ```bash
-git clone https://github.com/Dandead/backup_tool.git && cd backup_tool
-```
-Run install script:
-```bash
-bash install.sh
-```
-Then, check of existing backup file and crone task:
-```bash
-crontab -l
-```
-Create .env file and define variables
-```bash
-cp .env.dist .env
-```
-And then, first run the script
-```bash
-poetry run python3.11 -m backup_tool
+bash -c "$(wget https://raw.githubusercontent.com/Dandead/backup_tool/main/install.sh -O -)"
 ```
